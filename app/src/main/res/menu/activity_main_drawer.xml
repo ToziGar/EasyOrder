@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_nuevo_pedido"
+            android:icon="@drawable/nuevo"
+            android:title="Nuevo pedido"
+            android:visible="false"/>
+
+
+        <item
+            android:id="@+id/nav_lista_pedidos"
+            android:icon="@drawable/pedidos"
+            android:title="Lista de pedidos"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_stock_productos"
+            android:icon="@drawable/stock"
+            android:title="Stock de los productos"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_editar_productos"
+            android:icon="@drawable/editar"
+            android:title="Editar productos"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ajustes"
+            android:title="Ajustes"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/ayuda"
+            android:title="Ayuda"
+            android:visible="false"/>
+    </group>
+</menu>
+
+

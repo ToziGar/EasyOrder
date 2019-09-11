@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">EasyOrder</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favoritos</string>
+    <string name="downloaded">Descarga</string>
+    <string name="more">Mas</string>
+    <string name="settings">Ajustes</string>
+</resources>

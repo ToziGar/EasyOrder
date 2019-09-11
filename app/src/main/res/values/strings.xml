@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">EasyOrder</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_about">ConfiguracioActivity</string>
+
+
+    <string name="nav_drawer_title">Luis</string>
+    <string name="nav_drawer_email">Luis.Garcia@gmail.com</string>
+
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="sincuenta">¿Aun sin cuenta? Registrate ya!</string>
+    <string name="concuenta">¿Ya tienes cuenta? Conectate ya!</string>
+    <string name="conectarse">conectarse</string>
+    <string name="title_activity_registro">Registrarse</string>
+    <string name="title_activity_login">Conectarse</string>
+    <string name="title_activity_lista">Lista</string>
+    <string name="title_activity_scanner">Escanear mesa</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_register_fragment">Sign in</string>
+    <!-- Strings related to activity_login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">El correo no es valido.</string>
+    <string name="error_invalid_password">La contraseña es demasiado corta.</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta.</string>
+    <string name="error_field_required">Este campo es obligatorio.</string>
+    <string name="error_field_required2">La contraseña debe contener minimo 8 carácteres que contenga una letra mayuscula, minuscula y un numero.</string>
+    <string name="permission_rationale">"Es encesario que concedas permisos de contactos."</string>
+    <string name="error_mail_repetido">"Este correo ya existe."</string>
+
+
+   <string name="info">La aplicación EasyOrder sirve para gestionar los pedidos de un restaurante. Permite registrar pedidos, editar
+ los productos que ofrece el restaurante, listar los pedidos durante el día y también permite mantener un stock de los
+ productos que ofrece el restaurante.</string>
+
+    <string name="nuevopedido">Aquí podrás crear nuevos pedidos, haciendo click sobre un producto añadirás una unidad de el producto elegido , haciendo un
+    click largo sobre un producto accederás a un menú donde podrás cambiar la cantidad que quieres de este, haciendo click en el botón
+ de información podrás saber en todo momento el precio acumulado del pedido y finalmente con el botón de abajo a la derecha de la pantalla
+ podrás tramitar un pedido..</string>
+
+    <string name="editarproductos">Aquí podrás editar los productos, haciendo click sobre un producto irás a una pantalla donde podrás editarlo
+   o borrarlo, haciendo click sobre el botón de abajo a la derecha de la pantalla podrás crear un producto nuevo.</string>
+
+    <string name="listapedidos">Aquí podrás ver los pedidos hechos en el día actual y a que mesa pertenecen, haciendo click sobre el icono
+   de información podrás "hacer caja", es decir, ver los ingresos totales del día.</string>
+
+    <string name="stockproductos">Aquí podrás ver la cantidad de los productos, haciendo click sobre un producto
+             podrás modificar su stock, incrementándolo, decrementadolo o poniéndolo a cero.</string>
+
+    <string name="ajustes">Aquí podrás cambiar el nombre y el correo de tu cuenta..</string>
+
+</resources>
+

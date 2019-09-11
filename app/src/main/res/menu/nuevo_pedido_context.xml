@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/contextualMenuSetZero"
+        android:title="Establecer a cero" />
+
+    <item
+        android:id="@+id/contextualMenuSetCustomNumber"
+        android:title="Incrementar cantidad" />
+
+    <item
+        android:id="@+id/contextualMenuDecrease"
+        android:title="Decrementar uno" />
+
+
+</menu>

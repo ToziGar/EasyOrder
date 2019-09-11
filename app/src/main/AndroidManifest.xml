@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luisgarciamenendez.easyorder.archivos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EasyOrder"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.luisgarciamenendez.easyorder.archivos.Splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.luisgarciamenendez.easyorder.archivos.Formularios.RegistroActivity"
+            android:label="EasyOrder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.luisgarciamenendez.easyorder.archivos.Formularios.LoginActivity"
+            android:label="EasyOrder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.luisgarciamenendez.easyorder.archivos.Formularios.ListaActivity"
+            android:label="EasyOrder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="com.luisgarciamenendez.easyorder.archivos.MainActivity"
+            android:label="EasyOrder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.luisgarciamenendez.easyorder.archivos.EditarProductos.EditarProductoActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.luisgarciamenendez.easyorder.archivos.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.luisgarciamenendez.easyorder.archivos.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.luisgarciamenendez.easyorder.archivos.ConfiguracionActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>
