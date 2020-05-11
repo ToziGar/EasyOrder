@@ -74,17 +74,14 @@ El camarero podrá ver todas las ordenes que demandan nuestros clientes con sus 
 
 El administrador podrá eliminar y modificar cualquier producto.
 #### 2.3.2	DAFO
-	
 ##### FACTORES INTERNOS	FACTORES EXTERNOS
 ###### FORTALEZAS
-
 Ser de los primeros en establecerse dentro de locales.
 Mejora de la calidad de servicio al cliente.
 Ahorro de colas.
 Ahorro de personal.	
 
 ###### OPORTUNIDADES
-
 Adaptación para el uso cotidiano de las personas.
 Crecimiento a nivel nacional para ser implementado en más locales.
 
@@ -99,7 +96,27 @@ Posibilidad de las empresas realicen la aplicación.
 Probablemente no apta para todos los públicos.
 Cantidad de uso dentro del establecimiento.
 
-### 2.3.3	Estado del Arte
-
+### 2.3.3 Estado del Arte
 Al igual que mi aplicación, existen otras aplicaciones que realizan estos procesos a la hora de solicitar pedidos:
+
+
+###### Glovo: 
+Es una aplicación desde la que puedes solicitar casi cualquier tipo de producto a domicilio ya sea un supermercado, restaurante o incluso que no esté en su selección y le describas al repartidor a donde ir exactamente.
+
+###### Just Eat:
+Esta aplicación tiene una gran cantidad de restaurantes desde la que podremos solicitar comida a domicilio pero solo los que permite la aplicación.
+
+###### BugerKing: 
+La aplicación contiene varios tipos de productos con descuentos aplicables, los kioskos que existen dentro de estos establecimientos nos permiten realizar escaneos de QR con los que se aplican descuentos y hacer una selección de productos.
+
+###### Deliveroo: 
+Entregas de menos de media hora y ciclistas repartidores. Su punto fuerte, además, es la propia aplicación. Sin duda estamos ante la mejor app, muy por encima de las demás por su precioso diseño. En cuanto a opciones, y aunque supera las alternativas, sigue estando por detrás de Just Eat.
+
+###### PedidosYa:
+Permite encontrar restaurantes con delivery y realizar pedidos de comida en línea a través de su sitio web y apps para iOS y Android con gran variedad de opciones gastronómicas y facilidad de medios de pago. El servicio de PedidosYa es de uso gratuito y el pedido se realiza de manera fácil, simple y práctica. Cuenta con más de 1 millón de platos disponibles para ordenar y solo está disponible en países sudamericanos.
+
+### 2.4	Desarrollo
+#### 2.4.1	Fundamentación teórica
+
+
 
