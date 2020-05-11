@@ -529,9 +529,9 @@ Crear sistema de cupones de descuento.
 Crear sistema de comida gratuita al utilizar la aplicacion una cantidad determinada de veces.
 ### 6	Webgrafía
 
-	Oficina de patentes y marcas (https://bit.ly/2TQumWq)último acceso 1/03/2019
+	Oficina de patentes y marcas (https://bit.ly/2TQumWq) último acceso 1/03/2019
 	Tarifa de Vodafone (https://bit.ly/2BFscli) último acceso 11/03/2019
-	Gestoría de autónomos (https://bit.ly/2NeDH7Z)último acceso 11/03/2019
+	Gestoría de autónomos (https://bit.ly/2NeDH7Z) último acceso 11/03/2019
 	Estrategia de precios (https://bit.ly/2khlCLe) último acceso 11/03/2019
 	Estrategia de productos (https://bit.ly/2E42U0R) último acceso 09/03/2019
 	Estrategia de distribución (https://bit.ly/2Tbp2zP)último acceso 09/03/2019
