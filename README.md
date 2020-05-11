@@ -218,8 +218,8 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 
 ###### C.U.4. Modificar perfil C.U.5.  Ver lista de productos C.U.6 Seleccionar mesa del pedido
 ######  Precondiciones.
-	- Usuario logueado.	Precondiciones:
-	- Usuario logueado.	Precondiciones:
+	- Usuario logueado.	
+	- Usuario logueado.	
 	- Usuario logueado.
 ###### Postcondiciones:
 	- El sistema modificará los datos del usuario.	Postcondiciones:
@@ -251,3 +251,81 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 	 Error de confirmación del pedido. El sistema indicará al usuario que en ese momento no se podrá realizar unpedido.
 	 Error. El sistema indicará al usuario que en ese momento no se podrá realizar dicha función.
 	 Error. El sistema avisara de que no queda stock suficiente de ese producto.
+
+###### C.U.7 Ver el precio total de los productos	C.U.8Realizar pedido	C.U.9 Ventana de ayuda
+
+###### Precondiciones:
+	- Usuario logueado.	Precondiciones:
+	- Usuario logueado.	Precondiciones:
+	- Usuario logueado.
+###### Postcondiciones:
+	-Se abrira una ventana emergente con el total del rpecio de los productos elegidos.	Postcondiciones:
+	- Se realizará la comanda.	Postcondiciones:
+	- Se abrira una ventana con lainformación del la aplicación y lo que encontraremos dentro dependiendo del tipo de usuario que seamos.
+###### Acciones
+	El usuario accederá al menú lateral.
+	El usuario pulsará el botón de “Nuevo pedido”
+	El usuario seleccionaralos productos que desea. 
+	El sistema notificará con un fondo verde que escogió ese articulo y la cantidad de veces.
+	El usuario le dará al boton de información de arriba a la derecha para ver el precio total del pedido.
+	El usuario accederá al menú lateral.
+	El usuario pulsará el botón de “Nuevo pedido”
+	El usuario seleccionará los productos que desea. 
+	El sistema notificará con un fondo verde que escogio ese articulo y la cantidad de veces.
+	El usuario pulsara el boton inferior derecho para confirmar su pedido.
+	EL usuario escribirá la mesa en la que está posicionado.
+	La comanda se realizará con éxito.
+	El usuario se encontrara esta ventana cuando acceda por primera vez a la aplicación.
+	Podrá entrar siempre que quiera desde el menú lateral.
+
+###### Excepciones:
+	1. Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
+###### C.U.10 Ver los pedidos realizados	C.U.11 Gestionar usuarios	C.U.12  Gestionar productos
+###### Precondiciones:
+	- Usuario logueado
+	-  Tener permisos como Usuario Camarero:
+	- Usuario logueado.
+	- Tener las credenciales 	
+	- Usuario logueado
+	-  Tener permisos como Usuario Administrador
+###### Postcondiciones:
+	- Se abrirá una ventana con la información del pedido que han realizado.	Postcondiciones:
+	- Se abrirá una ventana con las listas de los productos.	Postcondiciones:
+	- Se abrirá una ventana con la lista de productos.
+###### Acciones:
+	El usuario  camarero accederá al menú lateral.
+	El usuario solo tendrá la elección de un boton del menu lateral llamado “Lista de pedidos”.
+	 El usuario podrá visualizar la mesa en la que se encuentra el cliente, el precio y la hora.
+	Pulsando sobre un pedido desplegara la información de la comanda. 	Acciones:
+	El usuario  camarero accederá al menú lateral.
+	El usuario solo tendrá la elección de un boton del menu lateral “Gestionar usuarios”.
+	Pulsando sobre un usuario nos desplegara una ventana emergente para el tipo de usuario.	
+	El administrador accederá al menú lateral.
+	El administrador pulsará el botón de “Editar productos”
+	El administrador podrá modificar o eliminar productos pulsando sobre ellos.
+
+###### Excepciones:
+	Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.	Excepciones:
+	Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.	Excepciones:
+	Error de conexión. El sistema indicará al administrador que hay un error de conexión con el servidor.
+
+###### C.U.13 Ajustes de la aplicación	C.U.14 Stock de los productos
+###### Precondiciones:
+	- Usuario logueado
+	-  Tener permisos como Usuario Administrador	Precondiciones:
+	- Usuario logueado
+	-  Tener permisos como Usuario Camarero
+###### Postcondiciones:
+	- Se abrirá una ventana con ajustes de la aplicación.	Postcondiciones:
+	- Se abrirá una ventana con la información del stock de los productos.
+###### Acciones:
+	El administrador accederá al menú lateral.
+	El administrador pulsará el botón de “Ajustes”
+	El administrador podrácambiar el nombre , el correo y la foto del banner.
+	El administrador podrá eliminar todos los productos o pedidos .
+	El usuario  camarero accederá al menú lateral.
+	El usuario solo tendrá la elección de un boton del menu lateral llamado “Stock de los productos”.
+	El camarero  podrá visualizar la cantidad de stock que hay y podrá incrementar o decrementar. 
+###### Excepciones:
+	Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.	Excepciones:
+	Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
