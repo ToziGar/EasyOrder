@@ -329,3 +329,127 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 ###### Excepciones:
 	Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.	Excepciones:
 	Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
+### Esquema de la base de datos.
+
+###### Usuarios: Tabla formada por un identificador único, el email, password y el tipo de usuario.
+
+	ID(Int): Identificador unico por cada usuario, no pueden existir dos iguales.
+	Email(string): Correo electrónico del usuario, se utilizará para conectarse.
+	Password(string):Contraseña de la cuenta para poder acceder.
+	Tipo(string):Identificador para determinar el tipo de usuario.
+
+
+###### Pedidos: Tabla formada por la fecha y hora, el precio, el numero de mesa y el nombre de los productos.
+
+	Nombre producto(String): El nombre del producto que tengamos.
+	Fecha_hora(Date): Registrara la hora y el día a la que se realiza un pedido.
+	Número de mesa (Int): Indicará en que mesa está el usuario que realiza un pedido.
+	Precio(real): Indicará el coste del producto con decimales.
+
+
+###### Pedidos: Tabla formada por un identificador único, nombre del producto, precio, imagen, hasimage e imagenuri.
+
+##### ID(Int): Identificador unico por cada usuario, no pueden existir dos iguales.
+	Nombre completo(string): Indicara como se llamara el producto.
+	Precio(real): Indicará el coste del producto con decimales.
+	Imagen(Integer): Se guardara la imagen que irá acorde con el producto.
+	Imagen has(Integer): Guardara el código binario de la imagen que irá acorde con el producto.
+	imageUri(String): Indicara donde se encuentra esa imagen.
+
+### Implementación de la aplicación:
+###### SplashActivity:
+Es la actividad que mostrara el logo al inicio de la aplicación.
+
+###### RecyclerItemClickListener: 
+Es el que se encargara de detectar cuando pulsamos sobre un elemento en las listas de la aplicación y nos servirá para todos los recyclerview de la aplicación.
+
+###### RegistroActivity: 
+Es la actividad que nos permitirá crear una nueva cuenta de usuario para poder utilizar nuestra aplicación.
+###### Login Activity:
+Es la actividad que nos permitirá entrar en una cuenta de usuario que fuera creada posteriormente.
+###### Lista Activity: 
+Es una actividad a la que solo podremos acceder con un usuario y clave muy concretos, esta actividad nos mostrara los usuarios que existen para poder cambiarles el rol de usuario.
+###### Main Activity: 
+Es la actividad principal en la que tendremos el menú de navegación y llamara a distintos fragmentos, también hay que destacar que depende el tipo de usuario que esté conectado se verá de forma distinta.
+###### Ayuda Fragment:  
+Es el primer fragmento que mostrará la aplicación,  esta ventana enseñará a nuestro usuario a utilizar la aplicación con descripciones muy básicas.
+ConfiguraciónActivity: Es la actividad en la que podremos modificar nuestro correo electrónico del usuario.
+###### ProductosItemFragment:
+Es el fragment desde el que se verá una lista de productos que podremos seleccionar para hacer un pedido.
+
+###### ProductosRecyclerViewAdapter:
+Es un adaptador del anterior fragment que se utiliza para obtener la lista de productos, su posición, sus imágenes, nombres, precio, se recogerá de la base de datos.
+
+###### IntroduceCantidadDialog: 
+Es una ventana emergente que saldrá al mantener presionado un producto para poder escoger una cantidad concreta a la hora de pedir.
+
+###### MesaDialog:
+Es una ventana emergente que saldrá al escoger los productos para introducir número de mesa y confirmar el pedido.
+
+###### CuadroImagenView:  
+Es el que se encarga de coger el espacio de la foto en el menú desplegable.
+
+###### PedidosItemFragment:
+Es el fragment desde el que se verá una lista de pedidos.
+
+###### PedidosItemRecyclerViewAdapter:  
+Es un adaptador del anterior fragment que se utiliza para obtener la lista de pedidos, su posición, y que al ser pulsado se obtiene los productos de ese pedido.
+
+###### EditarStockDialog:
+Es la clase que permite el dialog emergente para establecer una cantidad incrementada, decrementada o sin stock.
+
+###### ProductosSotckItemFragment: 
+Es la clase que permite visualizar el recycledview y recoge las posiciones para editar el producto correcto.
+
+###### ProductosSotckItemRecyclerViewAdapter: 
+Es el adaptador que contiene la vista de los productos como imágenes, nombre, cantidad y el escuchador al ser pulsado.
+
+###### CrearProductoDialog: 
+Es la clase que permite el dialog emergente para crear un nuevo producto añadiendo su imagen, nombre, precio y cantidad.
+
+###### EditarProductoActivity: 
+Es la clase que permite que entremos dentro de un producto concreto y podamos editar su nombre su precio, guardar los cambios o eliminar el producto
+
+###### EditarProductoItemFragment:
+Es la clase que permite que visualicemos los productos y tengamos el escuchador al ser pulsado para llevarnos al que queremos.
+
+###### EditarProductoItemRecyclerViewAdapter: 
+Es el adaptador que contiene la vista de los productos como imágenes, nombre, cantidad y el escuchador al ser pulsado para llevarnos a la actividad con los datos de ese producto para ser editado.
+
+###### DBManager:  
+Es la clase que contiene la base de datos con sus tablas correspondientes y sus clases para insertar, actualizar, eliminar, obtener todo, obtener ordenado por día  , resetear tablas.etc
+
+###### DishesContainer: 
+Es la clase que contiene la lista de todos los productos que será llamada cuando sea necesario mostrarlos, también contiene la inserción de los datos, y un método para obtener la lista de productos.
+
+###### OrderContainer: 
+Es la clase que contiene la lista de todos los pedidos que será llamada cuando sea necesario mostrarlos, no existe ninguna inserción así que deberemos crear un pedido primero.
+
+###### UsuarioDBHelper: 
+Es la clase que contiene la creación de la tabla de usuarios y un método para obtenerlos para la ListaActivity
+
+###### UsuariosContract: 
+Es la clase que la base de datos de los usuarios como el tipo de columnas.
+### 2.4.2	Materiales y métodos
+
+Para la realización de este proyecto vamos a utilizar Android Studio para programar en la aplicación movil integrando una base de datos SQlite que estará en el local dentro del movil, se ha programado en lenguaje java yse utilizarán librerías externas como por ejemplo: CardView Y RecycledView
+
+###### CardView:
+Es una librería que nos permite realizar una especie de tarjeta/carta que se utilizará en varias ocasiones.
+
+###### RecycledView: 
+Un RecyclerView es un contenedor de elementos en forma de lista al igual que la clase ListView. Aunque ambos tienen la misma función, este nuevo elemento permite “reciclar” los ítems que ya no son visibles por el usuario debido al scrolling. Por lo que es ideal para proyectos que manejan grandes volúmenes de ítems que se actualizan constantemente, limitando la visibilidad de elementos.
+
+
+#### 2.4.3	Resultados y análisis
+### 3	Gestión de proyecto
+
+#### 3.1 Gestión del proyecto y temporalización
+
+Para medir la temporalización he decidido trabajar desde que han empezado las prácticas, es decir desde el día 8 de abril.
+
+Todos los lunes a jueves de cada semana he trabajado desde las 6 hasta las 9 y de 22:30 a 00:00, que hasta el día 7 de la entrega hacen 36 días que corresponden a un total de 198 horas.
+
+He decidido este horario para organizarme y para tener días de descanso para no saturarme debido a que antes de realizar esas 5 horas y media realizo practicas durante 8 horas.
+
+#### 3.2 Costes
