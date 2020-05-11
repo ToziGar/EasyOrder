@@ -117,6 +117,66 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 
 ### 2.4	Desarrollo
 #### 2.4.1	Fundamentación teórica
+### REQUISITOS FUNCIONALES
+###### RF1	
+	A la hora de crear una contraseña deberá cumplir unos requisitos mínimos de seguridad.
+######RF2	
+	Una vez se realice una conexión de un usuario se le indicara con que cuenta está conectado.
+######RF3
+	El sistema tendrá un número ilimitado de veces para introducir la contraseña correcta sin penalización.
+######RF4	
+	El programa contará con un menú que aparecerá en la parte lateral izquierdo de laaplicación.
+######RF5	
+	Se mostrará una lista que contará con imágenes e información de los productos.
+######RF6	
+	Se permitirá la selección de productos para realizar un pedido.
+######RF7	
+	El sistema dará mensajes de error que sean informativos y orientados al usuario final.
+######RF8	
+	Se permitirá que el usuario edite la información de su cuenta.
+######RF9	
+	Se permitirá meter la mesa por escrito.
+######RF10	
+	Se permitirá editar y eliminar productos.
+######RF11	
+	Se permitira incrementar o decrementar el stock delos productos.
+######RF12	
+	Se permitira incrementar o decrementar la cantidad de los productos seleccionados.
+
+
+### REQUISITOS DE INTERFAZ DE USUARIO
+######RIU1	
+	El sistema validara automáticamente el cliente para permitir su acceso.
+######RIU2	
+	Tendrá un diseño simple y minimalista.
+######RIU3	
+	Toda la aplicación tendrá como colores principales el morado y el azul.
+######RIU4	
+	Tendrá una splash activity con el logo y nombre de la aplicación.
+######RIU5	
+	La tipografía de las letras sera por defecto.
 
 
 
+### REQUISITOS DE SISTEMA
+###### RSis1	
+	El sistema operativo de la aplicación será Android.
+###### RSis2	
+	El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados.
+###### RSis3	
+	El sistema identificará usuarios con permisos y usuarios sin permisos.
+###### RSis4	
+	El SGBD utilizado será SQlite que es una base de datos en local.
+
+
+
+
+### REQUISITOS DE SEGURIDAD
+###### RSeg1
+	Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador.
+###### RSeg2
+	El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados. Los usuarios debeningresar al sistema con un email y contraseña.
+###### RSeg3
+	Solo los usuarios conocidos como administradores tendrán acceso al menu completo.
+###### RSeg4
+	Los usuarios conocidos como camareros tendrán acceso al apartado de ordenes y la edición de stock .
