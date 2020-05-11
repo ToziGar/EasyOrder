@@ -175,4 +175,34 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 ###### RSeg3
 	Solo los usuarios conocidos como administradores tendrán acceso al menu completo.
 ###### RSeg4
-	Los usuarios conocidos como camareros tendrán acceso al apartado de ordenes y la edición de stock .
+	Los usuarios conocidos como camareros tendrán acceso al apartado de ordenes y la edición de stock.
+### Diagrama de casos de uso 
+#### Análisis
+###### C.U.1. Registrar 	C.U.2. Login 	C.U.3. Cerrar sesión
+###### Precondiciones:
+	- Precondiciones.
+	- Usuario ya registrado.
+	- Usuario logueado.
+###### Postcondiciones:
+	- Guardar el nuevo usuario en la base de datos.	
+	- Usuario inicia sesión en la aplicación.
+	- Se cierra la sesión del usuario en la aplicación.
+###### Acciones:
+	 Al arrancar la aplicación el usuario estará en la pantalla de registro.
+	 El usuario introducirá sus datos en cada uno de los campos de texto de la pantalla.
+	 El usuario pulsará el botón de registro.
+	 El sistema comprobará que no existe el usuario en la base de datos.
+	 El sistema comprobará que la contraseña cumple el patrón.
+	 El sistema comprobará que el correo cumple el patrón.
+	 El sistema registrará el usuario en la base datos.
+	 El sistema redirigirá al usuario a la pantalla de inicio con la sesión iniciada. 
+	 El usuario accederá a la pantalla de Inicio de sesión.
+	 El usuario introducirá sus datos de inicio de sesión en cada uno de los campos de texto de la pantalla.
+	 El usuario pulsará el botón de login.
+	 El sistema comprobará que el usuario existe.
+	 El sistema comprobará que la contraseñaintroducida concuerde con la contraseña de dicho usuario.
+	 El sistema iniciará la sesión del usuario.
+	 El sistema redirigirá al usuario a la pantalla de inicio con la sesión iniciada.
+	 El usuario se dirigirá a la pantalla de perfil.
+	 El usuario pulsará la opción de cerrar sesión que aparece en la pantalla.
+	 Se cerrará sesión.
