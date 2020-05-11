@@ -453,3 +453,90 @@ Todos los lunes a jueves de cada semana he trabajado desde las 6 hasta las 9 y d
 He decidido este horario para organizarme y para tener días de descanso para no saturarme debido a que antes de realizar esas 5 horas y media realizo practicas durante 8 horas.
 
 #### 3.2 Costes
+
+Con 3.000€ crearé la empresa, Sociedad Limitada Unipersonal Nueva Empresa (SLUNE), al estar bajo esta forma jurídica el coste de creación de nuestra empresa es de 250€.
+
+Creación de la empresa 					250€
+Creación de cuenta de Google Play como desarrollador	25€ de por vida
+
+Solicitud de marca o nombre comercial de clase 1		125,36 €/ anual
+
+Vodafone One Profesional Fibra 100Mb S			29,75€/Mensual
+
+Cowork colectivo (Comunidad, Limpieza, 
+Mobiliario, Electricidad, Internet, Impresora Compartida	30€/Mensual	
+
+Plan básico de gestoría para autónomos			29,99€/Mensual
+
+###### COSTE EN EL PRIMER MES:
+Costes fijos (Empresa, Logo y Google Play) =            304.75€
+Costes mensuales (Vodafone, Cowork, Asesoria) = 149,74€
+Costes totales:                                                                454,49€
+
+###### COSTE ANUAL
+Coste mensual   149,74€
+coste de 12 meses
+Coste total de 1.796,88 €
+3.3 Marketing y comercialización
+3.3.1 Segmentación del mercado
+
+Para que nuestro proyecto sea viable no podemos plantearnos venderle a
+todo el mundo todos los productos/servicios, tenemos que especializarnos y
+centrarnos en algunos clientes y algunos productos en concreto, bares y restaurantes enfocados a un público joven
+#### 3.3.2 Estrategia de producto
+
+Mi proyecto está formado por una aplicación móvil que permite al usuario realizar pedidos instantáneos. Por el momento, únicamente está hecha para un solo restaurante.
+Cada restaurante que utilice la aplicación la puede personalizar con su carta y su logo.
+
+Ahora que sabemos las debilidades que tienen las aplicaciones similares que existen, podremos enfrentarnos a ellas consiguiendo así, una mejor accesibilidad y manejo sin importar el rango de edad del público.
+#### 3.3.3 Estrategia de precio
+
+###### Estrategias de precios de penetración 
+
+Consiste en fijar un precio inicial bajo para conseguir una penetración de mercado rápida y eficaz, es decir, para atraer rápidamente a un gran número de consumidores. 
+
+Esto permitirá que muchos establecimientos sean invitados a probar a tener nuestra app sin miedo al rechazo, pero a cambio nos llevaremos un porcentaje de pedidos realizados desde la APP.
+
+#### 3.3.4 Estrategia de distribución
+
+Cada vez hay más aplicaciones para dispositivos móviles, lo que provoca que existamás competencia de apps. La app que de momento esta teniendo mas existo dentro de nuestro sector es Glovo y Just Eat. En este apartado, podemos encontrar múltiples soluciones, cada una utiliza una forma para establecer el ranking de aplicaciones como pueden ser la popularidad, cobertura de losmedios de comunicación, opiniones de los usuarios, etc.
+Play Store de Google, la cual es la forma tradicional y más común, pero no sólo por ello conseguiremos llegar al público objetivo, combinándola con otras webs populares de descarga de aplicaciones que nos permitiría ser más visibles y aumentar las descargas.
+#### 3.3.5 Estrategias de promoción
+
+La aplicación está diseñada y enfocada únicamente para jovenes que quieran realizar pedidos desde su movil en este restaurante. Por lo tanto, una forma de promocionarse sería en redes sociales con el objetivo de ser más visibles a ojos de la población más joven, realizar una publicación comentando nuestro producto, creando cuentas en varias redes sociales como son Instagram, Facebook y Twitter en las que se realizarían publicaciones exponiendo las ventajas de nuestra aplicación y, así, aumentar el alcance de la aplicación.
+
+Por último, para el rango de la población que no utiliza las redes sociales de forma regular añadiremos anuncios de google en paginas web.
+
+
+
+
+
+### 4	Conclusiones
+
+#### 4.1	Trabajo realizado
+
+El trabajo que he realizado es el proyecto completo ya que no se encuentran más personas en él.
+
+#### 4.2	Valoración personal
+
+Este trabajo a nivel personal me ha hecho aprender a realizar busquedas de nuevos métodos para implementar a mi aplicación y a resolver errores que nunca habia tenido anteriormente, la experiencia de crear una aplicación entera es muy placentera sin embargo conlleva mucho tiempo y preparación para realizarla.
+
+Ha sido muy productivo de cara al futuro ya que nadie estara ahí para nosotros en el futuro y buscarnos la vida apoyandonos de internet será mi día a día y gracias a este proyecto puedo aprender como se realiza un trabajo desde cero.
+### 5	Líneas de investigación futuras
+
+Atender a varios establecimientos desde una misma aplicación.
+Crear sistema de cupones de descuento.
+Crear sistema de comida gratuita al utilizar la aplicacion una cantidad determinada de veces.
+### 6	Webgrafía
+
+	Oficina de patentes y marcas (https://bit.ly/2TQumWq)último acceso 1/03/2019
+	Tarifa de Vodafone (https://bit.ly/2BFscli) último acceso 11/03/2019
+	Gestoría de autónomos (https://bit.ly/2NeDH7Z)último acceso 11/03/2019
+	Estrategia de precios (https://bit.ly/2khlCLe) último acceso 11/03/2019
+	Estrategia de productos (https://bit.ly/2E42U0R) último acceso 09/03/2019
+	Estrategia de distribución (https://bit.ly/2Tbp2zP)último acceso 09/03/2019
+	Glovo (https://glovoapp.com/es/faq) último acceso 06/05/2019
+	Just Eat (https://es.wikipedia.org/wiki/Just_Eat) último acceso 06/05/2019
+	Burger King (https://bit.ly/2ZdkbxA) último acceso 06/05/2019
+	PedidosYa (https://es.wikipedia.org/wiki/PedidosYa) último acceso 06/05/2019
+
