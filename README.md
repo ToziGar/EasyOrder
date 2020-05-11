@@ -206,3 +206,48 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 	 El usuario se dirigirá a la pantalla de perfil.
 	 El usuario pulsará la opción de cerrar sesión que aparece en la pantalla.
 	 Se cerrará sesión.
+###### Excepciones:
+	Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
+	Usuario ya existe en la base de datos. El sistema limpiará los campos de inserción.
+	Contraseña no válida. El sistema limpiará el campo de inserción de contraseña y se indicará al usuario que la contraseña no es válida y que debe contener para que si lo sea.
+	 Correo no válido. El sistema limpiará campo de inserción de correo y se indicará al usuario que el correo no es válido.	Excepciones:
+	 Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
+	Usuario incorrecto. El sistema indicará al usuario que los datos introducidos son incorrectos.
+	 Contraseña incorrecta. El sistema indicará al usuario que los datos introducidos son incorrectos.
+	 Error al cerrar sesión. El sistema indicará al usuario que no se podrá realizar la tarea en ese momento.
+
+###### C.U.4. Modificar perfil C.U.5.  Ver lista de productos C.U.6 Seleccionar mesa del pedido
+######  Precondiciones.
+	- Usuario logueado.	Precondiciones:
+	- Usuario logueado.	Precondiciones:
+	- Usuario logueado.
+###### Postcondiciones:
+	- El sistema modificará los datos del usuario.	Postcondiciones:
+	- Se abrira una ventana con la lista de productos a elegir.	Postcondiciones:
+	- Se abrirá una ventana emergente para escribir la mesa en la que estamos sentados.
+###### Acciones:
+	 El usuario accederá al menú lateral.
+	 El usuario pulsará el botón de “Perfil”.
+	 El sistema redirigirá al usuario a una nueva ventana de modificación de usuario donde se mostrará su información.
+	 El usuario modificará los datos.. El usuario pulsará el botón de guardar.
+	 El sistema comprobará que los datos modificados son correctos.
+	 El sistema tomará los datos introducidos por el usuario.
+	 El sistema comprobará que los nuevos datos son correctos.
+	 Se actualiza usuario en la base de datos.
+	 El usuario accederá al menú lateral.
+	 El usuario pulsará el botón de “Nuevo pedido”
+	 El usuario seleccionaralos productos que desea. 
+	 El sistema notificará con un fondo verde que escogio ese articulo y la cantidad de veces.
+	 El usuario accederá al menú lateral.
+	 El usuario pulsará el botón de “Nuevo pedido”
+	 El usuario seleccionaralos productos que desea. 
+	 El sistema notificará con un fondo verde que escogio ese articulo y la cantidad de veces.
+	 El usuario pulsará en el boton flotante para acabar su pedido eligiendo en que mesa está.
+###### Excepciones:
+	 Correo no válido. El sistema indicará al usuario que el nuevo correo no es válido.
+	 Contraseña no válida. El sistema indicará al usuario que la nueva contraseña no es válida.
+	 Error de conexión. El sistema indicará al usuario que en ese momento no se podrá realizar dicha función.
+	 Error de conexión. El sistema indicará al usuario que en ese momento no se podrá realizar dicha función.
+	 Error de confirmación del pedido. El sistema indicará al usuario que en ese momento no se podrá realizar unpedido.
+	 Error. El sistema indicará al usuario que en ese momento no se podrá realizar dicha función.
+	 Error. El sistema avisara de que no queda stock suficiente de ese producto.
