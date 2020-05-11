@@ -207,12 +207,12 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 	 El usuario pulsará la opción de cerrar sesión que aparece en la pantalla.
 	 Se cerrará sesión.
 ###### Excepciones:
-	Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
-	Usuario ya existe en la base de datos. El sistema limpiará los campos de inserción.
-	Contraseña no válida. El sistema limpiará el campo de inserción de contraseña y se indicará al usuario que la contraseña no es válida y que debe contener para que si lo sea.
+	 Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
+	 Usuario ya existe en la base de datos. El sistema limpiará los campos de inserción.
+	 Contraseña no válida. El sistema limpiará el campo de inserción de contraseña y se indicará al usuario que la contraseña no es válida y que debe contener para que si lo sea.
 	 Correo no válido. El sistema limpiará campo de inserción de correo y se indicará al usuario que el correo no es válido.	Excepciones:
 	 Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
-	Usuario incorrecto. El sistema indicará al usuario que los datos introducidos son incorrectos.
+	 Usuario incorrecto. El sistema indicará al usuario que los datos introducidos son incorrectos.
 	 Contraseña incorrecta. El sistema indicará al usuario que los datos introducidos son incorrectos.
 	 Error al cerrar sesión. El sistema indicará al usuario que no se podrá realizar la tarea en ese momento.
 
@@ -222,8 +222,8 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 	- Usuario logueado.	
 	- Usuario logueado.
 ###### Postcondiciones:
-	- El sistema modificará los datos del usuario.	Postcondiciones:
-	- Se abrira una ventana con la lista de productos a elegir.	Postcondiciones:
+	- El sistema modificará los datos del usuario.
+	- Se abrira una ventana con la lista de productos a elegir.
 	- Se abrirá una ventana emergente para escribir la mesa en la que estamos sentados.
 ###### Acciones:
 	 El usuario accederá al menú lateral.
@@ -255,11 +255,11 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 ###### C.U.7 Ver el precio total de los productos	C.U.8Realizar pedido	C.U.9 Ventana de ayuda
 
 ###### Precondiciones:
-	- Usuario logueado.	Precondiciones:
-	- Usuario logueado.	Precondiciones:
+	- Usuario logueado.	
+	- Usuario logueado.	
 	- Usuario logueado.
 ###### Postcondiciones:
-	-Se abrira una ventana emergente con el total del rpecio de los productos elegidos.	Postcondiciones:
+	- Se abrira una ventana emergente con el total del rpecio de los productos elegidos.	Postcondiciones:
 	- Se realizará la comanda.	Postcondiciones:
 	- Se abrira una ventana con lainformación del la aplicación y lo que encontraremos dentro dependiendo del tipo de usuario que seamos.
 ###### Acciones
@@ -279,15 +279,15 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 	Podrá entrar siempre que quiera desde el menú lateral.
 
 ###### Excepciones:
-	1. Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
+	 - Error de conexión. El sistema indicará al usuario que hay un error de conexión con el servidor.
 ###### C.U.10 Ver los pedidos realizados	C.U.11 Gestionar usuarios	C.U.12  Gestionar productos
 ###### Precondiciones:
 	- Usuario logueado
-	-  Tener permisos como Usuario Camarero:
+	- Tener permisos como Usuario Camarero:
 	- Usuario logueado.
 	- Tener las credenciales 	
 	- Usuario logueado
-	-  Tener permisos como Usuario Administrador
+	- Tener permisos como Usuario Administrador
 ###### Postcondiciones:
 	- Se abrirá una ventana con la información del pedido que han realizado.	Postcondiciones:
 	- Se abrirá una ventana con las listas de los productos.	Postcondiciones:
@@ -295,7 +295,7 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 ###### Acciones:
 	El usuario  camarero accederá al menú lateral.
 	El usuario solo tendrá la elección de un boton del menu lateral llamado “Lista de pedidos”.
-	 El usuario podrá visualizar la mesa en la que se encuentra el cliente, el precio y la hora.
+	El usuario podrá visualizar la mesa en la que se encuentra el cliente, el precio y la hora.
 	Pulsando sobre un pedido desplegara la información de la comanda. 	Acciones:
 	El usuario  camarero accederá al menú lateral.
 	El usuario solo tendrá la elección de un boton del menu lateral “Gestionar usuarios”.
@@ -312,9 +312,9 @@ Permite encontrar restaurantes con delivery y realizar pedidos de comida en lín
 ###### C.U.13 Ajustes de la aplicación	C.U.14 Stock de los productos
 ###### Precondiciones:
 	- Usuario logueado
-	-  Tener permisos como Usuario Administrador	Precondiciones:
+	- Tener permisos como Usuario Administrador	Precondiciones:
 	- Usuario logueado
-	-  Tener permisos como Usuario Camarero
+	- Tener permisos como Usuario Camarero
 ###### Postcondiciones:
 	- Se abrirá una ventana con ajustes de la aplicación.	Postcondiciones:
 	- Se abrirá una ventana con la información del stock de los productos.
